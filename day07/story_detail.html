@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Instagram</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <script src="https://kit.fontawesome.com/a064d8f3cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__story-detail story-detail">
+      <span class="story-detail__icon">
+        <a href="index.html" class="story-detail__link">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+      </span>
+    </div>
+  </header>
+  <main class="stories">
+    <div class="story">
+      <div class="story__row">
+        <div class="story__column">
+          <img src="images/profile.jpg" class="story__profile-img img-sm" />
+          <span class="story__profile-name">
+            San Martin
+          </span>
+          <span class="story__timestamp">
+            5 min
+          </span>
+        </div>
+        <div class="story__column">
+          <span class="story__more">
+            <i class="fas fa-ellipsis-h"></i>
+          </span>
+        </div>
+      </div>
+      <div class="story__row">
+        <div class="story__column">
+          <img src="images/story.jpg" class="story__image" />
+        </div>
+      </div>
+      <div class="story__row">
+        <div class="story__column">
+          <span class="story__heart">
+            <i class="far fa-heart"></i>
+          </span>
+          <span class="story__heart-count">
+            2300
+          </span>
+          <span class="story__comment">
+            <i class="far fa-comment-dots"></i>
+          </span>
+          <span class="story__comment-count">
+            4230
+          </span>
+        </div>
+        <div class="story__column">
+          <span class="story__bookmark">
+            <i class="far fa-bookmark"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="comments">
+      <ul class="comments_list">
+        <li class="comments_list comment">
+          <div class="comment__column">
+            <img src="images/comment.jpg" class="comment__profile_img img-sm" />
+            <div class="commnet__content">
+              <span class="comment__username">
+                Angel
+              </span>
+              <span class="comment__text">
+                Good!
+              </span>
+              <span class="comment__heart">
+                <i class="far fa-heart fa-sm"></i>
+              </span>
+              <span class="comment__share">
+                <i class="fas fa-share fa-sm"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__input-comment input-comment">
+      <div class="input-comment-column">
+        <img src="images/profile.jpg" class="input-comment__profile-img" />
+        <input type="text" placeholder="Add a comment" class="input-comment__text-field" />
+        <button class="input-comment__btn">
+          <i class="far fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
